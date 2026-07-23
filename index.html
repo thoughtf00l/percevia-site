@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Percevia</title>
+  <meta name="description" content="A little more empathy for how others see. Percevia is an educational color-vision simulator for iPhone — through the camera, photos, or videos, entirely on device.">
+  <meta name="theme-color" content="#0B0C0F">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Percevia">
+  <meta property="og:description" content="A little more empathy for how others see.">
+  <meta property="og:url" content="https://percevia.app">
+  <meta property="og:image" content="https://percevia.app/icon.png">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root{
+      --ink:#EEF2F6; --muted:#8A97A8;
+      --prism:linear-gradient(100deg,#FFD21E 0%,#FBE7A6 28%,#CBDCF3 54%,#5C93F5 78%,#1E52DD 100%);
+      --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;min-height:100vh;min-height:100dvh;color:var(--ink);font-family:var(--sans);
+      background:radial-gradient(120% 90% at 50% 32%, #17181C 0%, #0B0C0F 55%, #050506 100%);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      text-align:center;padding:40px 24px;
+      -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    }
+    .card{display:flex;flex-direction:column;align-items:center;gap:30px;max-width:600px}
+    .icon{
+      width:158px;height:158px;display:block;
+      filter:drop-shadow(0 26px 52px rgba(40,92,200,.34));
+    }
+    h1{margin:0;font-size:clamp(40px,8vw,64px);font-weight:700;letter-spacing:-.03em;line-height:1}
+    .rule{width:64px;height:4px;border-radius:4px;background:var(--prism);opacity:.95}
+    .tag{
+      margin:0;font-size:clamp(19px,3.6vw,26px);font-weight:400;line-height:1.35;
+      color:var(--muted);max-width:20ch;text-wrap:balance;
+    }
+    footer{
+      position:fixed;left:0;right:0;bottom:0;padding:22px;
+      display:flex;gap:10px 18px;justify-content:center;flex-wrap:wrap;
+      font-size:13px;color:#5C6980;
+    }
+    footer a{color:#7C8AA0;text-decoration:none}
+    footer a:hover{color:var(--ink)}
+    .dot{opacity:.5}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="icon" src="icon.png" alt="Percevia" width="158" height="158">
+    <h1>Percevia</h1>
+    <div class="rule"></div>
+    <p class="tag">A little more empathy for how others see.</p>
+  </main>
+
+  <footer>
+    <span>Coming soon to the App Store</span>
+    <span class="dot">·</span>
+    <a href="mailto:hello@percevia.app">hello@percevia.app</a>
+    <span class="dot">·</span>
+    <span>© 2026 Cosmoshark</span>
+  </footer>
+</body>
+</html>
