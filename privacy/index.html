@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy & Disclaimer — Percevia</title>
+  <meta name="description" content="Percevia processes all media on device and collects no data. Percevia is an educational tool and is not a medical device.">
+  <meta name="theme-color" content="#0B0C0F">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <meta name="robots" content="index,follow">
+  <style>
+    :root{
+      --ink:#EEF2F6; --body:#C4CDD7; --muted:#8A97A8;
+      --link:#8AB0F6; --line:rgba(255,255,255,.10);
+      --prism:linear-gradient(100deg,#FFD21E 0%,#FBE7A6 28%,#CBDCF3 54%,#5C93F5 78%,#1E52DD 100%);
+      --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;color:var(--body);font-family:var(--sans);line-height:1.65;font-size:17px;
+      background:
+        radial-gradient(120% 60% at 50% -10%, #17181C 0%, #0B0C0F 45%, #070709 100%) fixed;
+      -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    }
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:66ch;margin:0 auto;padding:0 24px}
+
+    header{padding:34px 0 8px}
+    .brand{display:inline-flex;align-items:center;gap:11px;color:var(--ink);font-weight:700;
+      font-size:17px;letter-spacing:-.02em;text-decoration:none}
+    .brand img{width:30px;height:30px;display:block;border-radius:8px}
+    .brand:hover{text-decoration:none}
+
+    h1{color:var(--ink);font-size:clamp(30px,5vw,42px);font-weight:800;letter-spacing:-.025em;
+      line-height:1.05;margin:40px 0 0;text-wrap:balance}
+    .meta{color:var(--muted);font-size:14px;margin:14px 0 0}
+    .rule{width:60px;height:4px;border-radius:4px;background:var(--prism);margin:22px 0 4px}
+
+    .lead{color:var(--ink);font-size:19px;margin:28px 0 0}
+    h2{color:var(--ink);font-size:20px;font-weight:700;letter-spacing:-.01em;margin:40px 0 0}
+    p{margin:12px 0 0}
+
+    .callout{margin:22px 0 0;padding:22px 24px;border:1px solid var(--line);border-radius:16px;
+      background:rgba(255,255,255,.03)}
+    .callout h2{margin-top:0}
+
+    hr{border:0;border-top:1px solid var(--line);margin:52px 0 0}
+    footer{padding:28px 0 60px;color:var(--muted);font-size:14px;display:flex;gap:8px 16px;flex-wrap:wrap}
+    footer a{color:#7C8AA0}
+    .dot{opacity:.5}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="/"><img src="../icon.png" alt="">Percevia</a>
+    </header>
+
+    <h1>Privacy &amp; Disclaimer</h1>
+    <p class="meta">Last updated: July 23, 2026</p>
+    <div class="rule"></div>
+
+    <p class="lead">Percevia does not collect, transmit, sell, or share personal data. Everything the app does happens on your device.</p>
+
+    <h2>Camera, photos, and videos</h2>
+    <p>Camera frames and any photos or videos you choose are processed entirely on your device to render an approximate color-vision simulation. Percevia does not upload this media to any server and does not save it.</p>
+
+    <h2>Local settings</h2>
+    <p>Your selected simulation type, severity, and mathematical model are stored locally on the device using Apple’s <code>UserDefaults</code>. These settings never leave your device.</p>
+
+    <h2>Analytics, advertising, and third parties</h2>
+    <p>Percevia contains no advertising, analytics, tracking, accounts, network client, or third-party SDKs. The app does not even require internet access.</p>
+
+    <h2>Children</h2>
+    <p>Percevia does not knowingly collect data from children or adults, because it does not collect user data at all.</p>
+
+    <div class="callout">
+      <h2>Not a medical device</h2>
+      <p>Percevia is an <strong>educational tool</strong> that provides an <strong>approximate</strong> visualization of how colors may appear with different color-vision characteristics. It is <strong>not a medical device</strong> and is not intended to diagnose, screen for, test, treat, or manage color-vision deficiency or any other condition.</p>
+      <p>A mathematical model cannot fully reproduce another person’s subjective perception, and results may differ from how any individual actually sees. Do not rely on Percevia for medical, safety-critical, or professional decisions. For diagnosis or advice, consult a qualified eye-care professional.</p>
+    </div>
+
+    <h2>Changes</h2>
+    <p>If the app’s privacy practices change, this page and the App Store privacy information will be updated before the changed version is released.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy or this policy? Email <a href="mailto:hello@percevia.app">hello@percevia.app</a>.</p>
+
+    <hr>
+    <footer>
+      <a href="/">percevia.app</a>
+      <span class="dot">·</span>
+      <span>© 2026 Cosmoshark</span>
+    </footer>
+  </div>
+</body>
+</html>
